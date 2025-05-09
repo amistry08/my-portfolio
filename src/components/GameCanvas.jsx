@@ -17,7 +17,7 @@ const GameCanvas = () => {
         default: "arcade",
         arcade: {
           gravity: { y: 0 },
-          debug: false,
+          debug: true,
         },
       },
       scene: [GameScene],
@@ -27,7 +27,7 @@ const GameCanvas = () => {
     return () => game.destroy(true)
   }, [])
 
-  return <div id="game-container" className="w-full h-full"></div>
+  return <div id="game-container" className="flex w-full h-full"></div>
 }
 
 export default GameCanvas
