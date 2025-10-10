@@ -1,0 +1,53 @@
+[
+    {
+        "path": "assets/textures",
+        "files": [
+            {
+                "type": "spritesheet",
+                "key": "player",
+                "url": "Player.png",
+                "frameConfig": { "frameWidth": 32, "frameHeight": 32 }
+            },
+            {
+                "type": "image",
+                "key": "plant",
+                "url": "TX Plant.png"
+            },
+            {
+                "type": "image",
+                "key": "props",
+                "url": "TX Props.png"
+            },
+            {
+                "type": "image",
+                "key": "shadow_plant",
+                "url": "TX Shadow Plant.png"
+            },
+            {
+                "type": "image",
+                "key": "shadow",
+                "url": "TX Shadow.png"
+            },
+            {
+                "type": "image",
+                "key": "struct",
+                "url": "TX Struct.png"
+            },
+            {
+                "type": "image",
+                "key": "grass",
+                "url": "TX Tileset Grass.png"
+            },
+            {
+                "type": "image",
+                "key": "stone",
+                "url": "TX Tileset Stone Ground.png"
+            },
+            {
+                "type": "image",
+                "key": "wall",
+                "url": "TX Tileset Wall.png"
+            }
+        ]
+    }
+]

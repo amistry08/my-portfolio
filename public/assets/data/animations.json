@@ -1,0 +1,16 @@
+[
+    {
+        "key": "player_idle",
+        "frames": [0],
+        "frameRate": 12,
+        "repeat": -1,
+        "asset_key": "player"
+    },
+    {
+        "key": "player_walk",
+        "frames": [25, 26, 27, 28, 29, 30, 31, 32],
+        "frameRate": 12,
+        "repeat": -1,
+        "asset_key": "player"
+    }
+]
