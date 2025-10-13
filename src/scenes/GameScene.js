@@ -1,4 +1,5 @@
 import Phaser from "phaser"
+import Player from "../object/player"
 
 export default class GameScene extends Phaser.Scene {
     constructor() {
@@ -37,11 +38,9 @@ export default class GameScene extends Phaser.Scene {
 
         wallLayer.setCollisionByProperty({ collision: true })
 
-        this.player = this.physics.add.sprite(960, 960, "player")
-        this.player.setScale(1.1, 1.1)
-        this.player.body.setSize(32, 48)
+        this.player = new Player(this, "player")
 
-        this.cameras.main.setSize(1280, 720)
+        this.cameras.main.setSize(800, 600)
         this.cameras.main.startFollow(this.player)
 
         this.physics.world.setBounds(
@@ -50,32 +49,11 @@ export default class GameScene extends Phaser.Scene {
             map.widthInPixels,
             map.heightInPixels
         )
+
         this.cameras.main.setBounds(0, 0, map.widthInPixels, map.heightInPixels)
-
-        this.cursors = this.input.keyboard.createCursorKeys()
-
-        this.physics.add.collider(this.player, wallLayer)
     }
 
     update() {
-        const speed = 150
-        this.player.setVelocity(0)
-
-        // Keyboard Movement
-        if (this.cursors.left.isDown) {
-            this.player.setVelocityX(-speed)
-            this.player.anims.play("player_walk", true)
-        } else if (this.cursors.right.isDown) {
-            this.player.setVelocityX(speed)
-            this.player.anims.play("player_walk", true)
-        } else if (this.cursors.up.isDown) {
-            this.player.setVelocityY(-speed)
-            this.player.anims.play("player_walk", true)
-        } else if (this.cursors.down.isDown) {
-            this.player.setVelocityY(speed)
-            this.player.anims.play("player_walk", true)
-        } else {
-            this.player.anims.play("player_idle", true)
-        }
+        this.player.update()
     }
 }

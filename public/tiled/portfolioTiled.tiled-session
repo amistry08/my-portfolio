@@ -14,11 +14,11 @@
             "scaleInDock": 1
         },
         "gameMap.tmx": {
-            "scale": 1,
-            "selectedLayer": 2,
+            "scale": 0.5,
+            "selectedLayer": 3,
             "viewCenter": {
-                "x": 1367.5,
-                "y": 1456.5
+                "x": 1025,
+                "y": 1483
             }
         },
         "gameMap.tmx#TX Plant": {
