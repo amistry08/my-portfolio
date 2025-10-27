@@ -14,11 +14,11 @@
             "scaleInDock": 1
         },
         "gameMap.tmx": {
-            "scale": 0.5,
-            "selectedLayer": 3,
+            "scale": 1,
+            "selectedLayer": 9,
             "viewCenter": {
-                "x": 1025,
-                "y": 1483
+                "x": 1483,
+                "y": 1669
             }
         },
         "gameMap.tmx#TX Plant": {
@@ -39,7 +39,8 @@
             "scaleInDock": 1
         },
         "gameMap.tmx#TX Tileset Grass": {
-            "scaleInDock": 1.5
+            "scaleInDock": 1.5,
+            "scaleInEditor": 1
         },
         "gameMap.tmx#TX Tileset Stone Ground": {
             "scaleInDock": 0.75
@@ -60,7 +61,7 @@
         "gameMap.tmx"
     ],
     "project": "portfolioTiled.tiled-project",
-    "property.type": "bool",
+    "property.type": "string",
     "recentFiles": [
         "gameMap.tmx"
     ],

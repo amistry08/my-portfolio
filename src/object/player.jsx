@@ -12,7 +12,8 @@ export default class Player extends Phaser.Physics.Arcade.Sprite {
         scene.physics.add.existing(this)
 
         this.setScale(1.1, 1.1)
-        this.setSize(32, 48)
+        this.setSize(20, 14)
+        this.setOffset(6, 20)
 
         //Player Movement
         this.#keyboardInput = new KeyboardInput(this.scene)
