@@ -5,7 +5,7 @@ An interactive 2D portfolio built using **Phaser**, where users explore a game w
 Instead of a traditional static website, this portfolio transforms my profile into a playable dungeon-style experience.
 
 ## 🌐 Live Demo
-(Add deployed link here if available)
+[(Demo)](https://my-portfolio-wheat-beta-56.vercel.app/)
 
 ---
 
@@ -71,7 +71,12 @@ This project demonstrates both technical skills and product thinking.
 
 ## 📸 Screenshots
 
-![GameWorld](docs/screenshot1.png)
+![GameWorld](docs/Screenshot1.png)
+![GameWorld](docs/Screenshot2.png)
+![GameWorld](docs/Screenshot3.png)
+![Assets](docs/Screenshot4.png)
+![Level Design](docs/Screenshot5.png)
+![Level Design](docs/Screenshot7.png)
 
 ---
 
