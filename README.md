@@ -1,12 +1,91 @@
-# React + Vite
+# 🎮 Interactive Portfolio Game (Phaser)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive 2D portfolio built using **Phaser**, where users explore a game world to learn more about me, my projects, and my technical experience.
 
-Currently, two official plugins are available:
+Instead of a traditional static website, this portfolio transforms my profile into a playable dungeon-style experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
+(Add deployed link here if available)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Concept
+
+This project reimagines a developer portfolio as a game.
+
+Users can:
+- Move through an interactive world
+- Interact with objects to view projects
+- Solve small puzzles
+- Unlock achievements
+- Explore sections like skills, experience, and contact
+
+The goal is to combine **game development** and **web portfolio design** into one cohesive experience.
+
+---
+
+## 🧩 Features
+
+- Top-down 2D exploration
+- Interactive objects (project boards, NPCs, portals)
+- Puzzle mechanics
+- Achievement system
+- Scene transitions
+- Responsive UI overlays
+- Clean modular scene architecture
+
+---
+
+## 🛠 Tech Stack
+
+- **Phaser 3**
+- **JavaScript / TypeScript**
+- HTML5 Canvas
+- Modular scene-based architecture
+- Custom UI overlays
+
+---
+
+## 🎯 Why I Built This
+
+I wanted my portfolio to reflect:
+
+- My interest in game development
+- My ability to design interactive systems
+- My understanding of scene management and game architecture
+- Creative thinking beyond traditional web portfolios
+
+This project demonstrates both technical skills and product thinking.
+
+---
+
+## 🔮 Future Improvements
+
+- More advanced puzzle mechanics
+- Save system
+- Procedural room layouts
+- Better animations and VFX
+- Sound design and music
+
+---
+
+## 📸 Screenshots
+
+![GameWorld](docs/screenshot1.png)
+
+---
+
+## 🧠 About Me
+
+I am a developer focused on:
+- Game development
+- Full-stack engineering
+- Interactive UI systems
+
+This portfolio project represents my passion for building immersive digital experiences.
+
+---
+
+## 📜 License
+
+MIT
