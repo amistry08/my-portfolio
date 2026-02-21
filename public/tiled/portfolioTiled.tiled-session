@@ -6,6 +6,7 @@
     "activeFile": "gameMap.tmx",
     "expandedProjectPaths": [
     ],
+    "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
         "": {
             "scaleInEditor": 1
@@ -17,8 +18,8 @@
             "scale": 1,
             "selectedLayer": 9,
             "viewCenter": {
-                "x": 1483,
-                "y": 1669
+                "x": 1484,
+                "y": 1653
             }
         },
         "gameMap.tmx#TX Plant": {
